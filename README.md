@@ -47,6 +47,7 @@
   <li><b>Debugging DHCP configuration issues:</b> Ensured proper IP address assignment and default gateway settings.</li>
   <li><b>Troubleshooting NAT and routing:</b> Provided internet access to internal network clients.</li>
   <li><b>Optimizing virtual machine performance:</b> Allocated resources (CPU, RAM, network) efficiently to enhance performance.</li>
+  <li><b>AD Web services was set to disabled by default which was breaking the user creation script but simply setting it to automatic and enabling it fixed the issue</li>
 </ul>
 
 
