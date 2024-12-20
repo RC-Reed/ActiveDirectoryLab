@@ -51,8 +51,13 @@
 </ul>
 
 
-<h2>Program walk-through:</h2>
+<h2>Walk-Through:</h2>
 
+
+<p align="center">
+Environment architecture based on this Diagram Provided by Josh Madakor: <br/>
+<img src="https://imgur.com/NXOYXXy.png" height="80%" width="80%" alt="Creating Domain COntroller"/>
+<br />
 <p align="center">
 Creating Domain Controller: <br/>
 <img src="https://imgur.com/szSIiwS.png" height="80%" width="80%" alt="Creating Domain COntroller"/>
@@ -104,19 +109,11 @@ Users provisioned in Users Folder in AD: <br/>
 Creating Client VM: <br/>
 <img src="https://imgur.com/Cl4lCQm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-(Blank): <br/>
-<img src="(imageurlHERE).png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+DNS Server working (Pinging the Internet on Client VM): <br/>
+<img src="https://imgur.com/uPf9Wba.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-(Blank): <br/>
-<img src="(imageurlHERE).png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Renaming Client VM and connecting it to the Domain Controler: <br/>
+<img src="https://imgur.com/pjoDp9c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-(Blank): <br/>
-<img src="(imageurlHERE).png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-(Blank): <br/>
-<img src="(imageurlHERE).png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-(Blank): <br/>
-<img src="(imageurlHERE).png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+
 
