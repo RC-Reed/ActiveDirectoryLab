@@ -47,7 +47,7 @@
   <li><b>Debugging DHCP configuration issues:</b> Ensured proper IP address assignment and default gateway settings.</li>
   <li><b>Troubleshooting NAT and routing:</b> Provided internet access to internal network clients.</li>
   <li><b>Optimizing virtual machine performance:</b> Allocated resources (CPU, RAM, network) efficiently to enhance performance.</li>
-  <li><b>AD Web services was set to disabled by default which was breaking the user creation script but simply setting it to automatic and enabling it fixed the issue</li>
+  <li><b>Fixing the user-creation script:</b> Active Directory Web Services was disabled by default, which broke the bulk user script. Setting the service to Automatic and starting it fixed the issue.</li>
 </ul>
 
 
@@ -56,64 +56,64 @@
 
 <p align="center">
 Environment architecture based on this Diagram Provided by Josh Madakor: <br/>
-<img src="https://imgur.com/NXOYXXy.png" height="80%" width="80%" alt="Creating Domain COntroller"/>
+<img src="https://imgur.com/NXOYXXy.png" height="80%" width="80%" alt="Environment architecture based on this Diagram Provided by Josh Madakor"/>
 <br />
 <p align="center">
 Creating Domain Controller: <br/>
-<img src="https://imgur.com/szSIiwS.png" height="80%" width="80%" alt="Creating Domain COntroller"/>
+<img src="https://imgur.com/szSIiwS.png" height="80%" width="80%" alt="Creating Domain Controller"/>
 <br />
 <br />
-Formatting Hard drive for the Domain Controller:  <br/>
-<img src="https://imgur.com/JGI7WIN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Formatting Hard drive for the Domain Controller: <br/>
+<img src="https://imgur.com/JGI7WIN.png" height="80%" width="80%" alt="Formatting Hard drive for the Domain Controller"/>
 <br />
 <br />
 Giving Internal NIC an IP address: <br/>
-<img src="https://imgur.com/ovcNAiL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/ovcNAiL.png" height="80%" width="80%" alt="Giving Internal NIC an IP address"/>
 <br />
 Installing Active Directory Domain Services on VM: <br/>
-<img src="https://imgur.com/MGWU8mK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/MGWU8mK.png" height="80%" width="80%" alt="Installing Active Directory Domain Services on VM"/>
 <br />
 AD Post-Deployment Config: <br/>
-<img src="https://imgur.com/uSijODU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/uSijODU.png" height="80%" width="80%" alt="AD Post-Deployment Config"/>
 <br />
 Creating Admin OU: <br/>
-<img src="https://imgur.com/HVDjw5N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/HVDjw5N.png" height="80%" width="80%" alt="Creating Admin OU"/>
 <br />
 Creating Personal Admin Account: <br/>
-<img src="https://imgur.com/d2h7zv5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/d2h7zv5.png" height="80%" width="80%" alt="Creating Personal Admin Account"/>
 <br />
 Signing in with admin account: <br/>
-<img src="https://imgur.com/sOE94Qf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/sOE94Qf.png" height="80%" width="80%" alt="Signing in with admin account"/>
 <br />
 Installing Remote Access on Domain Controller: <br/>
-<img src="https://imgur.com/i6KRX6k.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/i6KRX6k.png" height="80%" width="80%" alt="Installing Remote Access on Domain Controller"/>
 <br />
 Installing NAT: <br/>
-<img src="https://imgur.com/VqnbgHU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/VqnbgHU.png" height="80%" width="80%" alt="Installing NAT"/>
 <br />
 Installing DHCP Server: <br/>
-<img src="https://imgur.com/cZ2N6U9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/cZ2N6U9.png" height="80%" width="80%" alt="Installing DHCP Server"/>
 <br />
 Configuring The DHCP Scope: <br/>
-<img src="https://imgur.com/8Dzrd5f.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/8Dzrd5f.png" height="80%" width="80%" alt="Configuring The DHCP Scope"/>
 <br />
 Script to Generate 1000 Users in AD: <br/>
-<img src="https://imgur.com/y5DJQmA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/y5DJQmA.png" height="80%" width="80%" alt="Script to Generate 1000 Users in AD"/>
 <br />
 Script Working (Creating Users): <br/>
-<img src="https://imgur.com/tz215hC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/tz215hC.png" height="80%" width="80%" alt="Script Working (Creating Users)"/>
 <br />
 Users provisioned in Users Folder in AD: <br/>
-<img src="https://imgur.com/Ebxw1Mv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Ebxw1Mv.png" height="80%" width="80%" alt="Users provisioned in Users Folder in AD"/>
 <br />
 Creating Client VM: <br/>
-<img src="https://imgur.com/Cl4lCQm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Cl4lCQm.png" height="80%" width="80%" alt="Creating Client VM"/>
 <br />
 DNS Server working (Pinging the Internet on Client VM): <br/>
-<img src="https://imgur.com/uPf9Wba.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/uPf9Wba.png" height="80%" width="80%" alt="DNS Server working (Pinging the Internet on Client VM)"/>
 <br />
-Renaming Client VM and connecting it to the Domain Controler: <br/>
-<img src="https://imgur.com/pjoDp9c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Renaming Client VM and connecting it to the Domain Controller: <br/>
+<img src="https://imgur.com/pjoDp9c.png" height="80%" width="80%" alt="Renaming Client VM and connecting it to the Domain Controller"/>
 <br />
 
 
